@@ -1,0 +1,12 @@
+﻿  FBullCowGame.cpp
+c:\users\jeremy\desktop\unreal class\section_02\bullcowgame\fbullcowgame.cpp(12): error C2600: 'FBullCowGame::FBullCowGame': cannot define a compiler-generated special member function (must be declared in the class first)
+c:\users\jeremy\desktop\unreal class\section_02\bullcowgame\fbullcowgame.cpp(13): error C2660: 'FBullCowGame::Reset': function does not take 0 arguments
+  c:\users\jeremy\desktop\unreal class\section_02\bullcowgame\fbullcowgame.cpp(13): note: This diagnostic occurred in the compiler generated function 'FBullCowGame::FBullCowGame(void)'
+c:\users\jeremy\desktop\unreal class\section_02\bullcowgame\fbullcowgame.cpp(17): error C2511: 'void FBullCowGame::Reset(void)': overloaded member function not found in 'FBullCowGame'
+  c:\users\jeremy\desktop\unreal class\section_02\bullcowgame\fbullcowgame.h(29): note: see declaration of 'FBullCowGame'
+c:\users\jeremy\desktop\unreal class\section_02\bullcowgame\fbullcowgame.cpp(18): error C2660: 'FBullCowGame::ChoseHiddenWord': function does not take 0 arguments
+c:\users\jeremy\desktop\unreal class\section_02\bullcowgame\fbullcowgame.cpp(20): error C2597: illegal reference to non-static member 'FBullCowGame::MyCurrentTry'
+c:\users\jeremy\desktop\unreal class\section_02\bullcowgame\fbullcowgame.cpp(21): error C2597: illegal reference to non-static member 'FBullCowGame::MyHiddenWord'
+c:\users\jeremy\desktop\unreal class\section_02\bullcowgame\fbullcowgame.cpp(22): error C2597: illegal reference to non-static member 'FBullCowGame::bGameIsWon'
+  Main.cpp
+  Generating Code...
