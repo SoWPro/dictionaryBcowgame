@@ -1,0 +1,14 @@
+int RandomLength()
+{
+	int32 RanLength = 0;
+	FString SChoice = "";
+	std::cout << "Do you want a random isogram: Y/N" << std::endl;
+	std::cin >> SChoice;
+	std::cout << "The answer is:" << SChoice << std::endl;
+	if (SChoice[0] == 'y' || SChoice[0] == 'Y')
+	{
+		std::cout << "I'm in if statement." << std::endl;
+		RanLength = rand() % 10 ;
+		std::cout << "randomlength number is: " << RanLength << std::endl;
+		
+	}
